@@ -8,4 +8,5 @@ for szam in range(5):
   lista.append(veletlen)
 
 paros_szam = [szam for szam in lista if szam % 2 == 0]
-  
+
+print(f"Az 5 db. generált szám: {lista}\n A páros számok száma: {len(paros_szamok)}\n a Páros számok: {paros_szam}")
