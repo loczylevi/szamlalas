@@ -7,5 +7,5 @@ for szam in range(5):
   veletlen = random.randint(1,10)
   lista.append(veletlen)
 
-print(lista)
+paros_szam = [szam for szam in lista if szam % 2 == 0]
   
